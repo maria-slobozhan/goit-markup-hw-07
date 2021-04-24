@@ -16,22 +16,11 @@
   margin-right: auto;
   margin-bottom: 30px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include fonts(900, 44px, 1.36, 0.06em);
   text-transform: uppercase;
   color: var(--hero-text-color);
 }
 
-.hero__button,
-.form__button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.button:hover,
-.button:focus {
-  background-color: #188ce8;
+.hero__button {
+  @include centered();
 }
