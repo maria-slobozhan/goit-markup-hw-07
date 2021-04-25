@@ -14,7 +14,7 @@
     padding: 0;
     margin-bottom: 10px;
 
-    @include fonts(12px, 1.17, 0.01em);
+    @include fonts(400, 12px, 1.17, 0.01em);
     color: var(--main-text-color);
   }
 
@@ -70,7 +70,7 @@
   padding: 12px 16px;
 
   &::placeholder {
-    @include fonts(12px, 1.17, 0.01em);
+    @include fonts(400, 12px, 1.17, 0.01em);
     color: rgba(117, 117, 117, 0.5);
   }
 }

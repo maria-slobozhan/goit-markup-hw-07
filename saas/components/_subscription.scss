@@ -16,7 +16,7 @@
   }
 
   &::placeholder {
-    @include fonts(16px, 1.25);
+    @include fonts(400, 16px, 1.25);
     color: rgba(255, 255, 255, 0.6);
   }
 }

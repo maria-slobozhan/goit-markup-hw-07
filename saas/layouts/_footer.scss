@@ -39,7 +39,7 @@
 .footer__title {
   margin-bottom: 20px;
   font-family: inherit;
-  @include fonts(700, 1.14);
+  @include fonts(700, 14px, 1.14);
   text-transform: uppercase;
   color: var(--hero-text-color);
 }

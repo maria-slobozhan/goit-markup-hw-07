@@ -24,7 +24,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   background-color: rgba(33, 150, 243, 0.9);
-  @include fonts(18px, 1.56);
+  @include fonts(400, 18px, 1.56);
   color: var(--hero-text-color);
 
   .product__link:hover &,
